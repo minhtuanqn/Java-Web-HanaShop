@@ -1,0 +1,232 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2021, 11:59:37 PM
+    Author     : MINH TUAN
+*/
+
+.container{
+    position:relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(255, 186, 0);
+}
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0px auto;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.up ul li{
+    display: inline-block;
+    padding:10px;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+.logo a img{
+    padding-right: 40px;
+}
+.down{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search {
+    display: block;
+    width: 100%;
+    border: groove;
+    margin-top: 6px;
+    float: left;
+    font-size: 130%;
+    font-family: cursive;
+}
+
+.search button img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.content {
+    display: block;
+    border: groove;
+    text-align: center;
+    width: 70%;
+    margin-top: 8px;
+    float: left;
+    height: 900px;
+    margin-bottom: 100px;
+}
+
+.item {
+    float: left;
+    width: 300px;
+    height: 390px;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.searchComponent {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+.underProduct {
+    display: block;
+    width: 100%;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+}
+
+.paging {
+    font-size: 150%;
+    margin-bottom: 120px;
+    margin-top: 800px;
+    display: block;
+    width: 100%;
+}
+
+.controllPanel {
+    display: block;
+    margin-top: 10px;
+    margin-left: 15px;
+    float: right;
+}
+
+.buttonCotroller {
+    width: 180px;
+    height: 35px;
+    background-color:  rgb(255, 186, 0);
+
+}
+.lable {
+    font-family: arial;
+    color: red;
+
+}
+.checkSelect {
+    font-size: 140%;
+}
+.createComponent {
+    display: block;
+    float: left;
+}
+.productCreation {
+    margin-top: 15px;
+    border: groove ;
+    display: inline-block;
+    font-size: 130%;
+    font-family: cursive;
+}
+.lableProduct {
+    color: blue;
+}
+.warning {
+    color:  red;
+}
+.warningAndComponent {
+    display: inline-block;
+    width: 310px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.warning {
+    font-size: 70%;
+    clear: both;
+}
+
+.inputAndLable {
+    float: left;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.search{
+    position:fixed;
+    bottom:0;
+    background-color: rgb(255, 186, 0);
+}
+
+.historyOrderContainer {
+    display: block;
+    width: 600px;
+    margin: auto;
+    border: inset;
+    font-size: 110%;
+    font-family: cursive;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.orderHeader {
+    background: rgb(255, 186, 0);
+    padding: 7px;
+    clear: both;
+}
+.details {
+    width: 24%;
+    float: left;
+    border: inset;
+}
+
+.leftHeader {
+    float: left;
+    width: 35%;
+}
+.rightHeader {
+    float: right;
+    width: 64%;
+}
+
+.adsImage {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+}
+
+.block-ads {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+

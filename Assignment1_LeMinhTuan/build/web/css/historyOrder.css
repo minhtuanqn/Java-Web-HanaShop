@@ -1,0 +1,96 @@
+.container{
+    position:relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.menu{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(255, 186, 0);
+}
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0px auto;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.up ul li{
+    display: inline-block;
+    padding:10px;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+.logo a img{
+    padding-right: 40px;
+}
+.down{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search {
+    display: block;
+    width: 100%;
+    border: groove;
+    margin-top: 6px;
+    float: left;
+    font-size: 130%;
+    font-family: cursive;
+}
+
+.search button img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.searchComponent {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+.search{
+    position:fixed;
+    bottom:0;
+    background-color: rgb(255, 186, 0);
+}
+
+.historyOrderContainer {
+    display: block;
+    width: 100%;
+}
+
+.content {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.orderHeader {
+    background: rgb(255, 186, 0);
+    padding: 7px;
+    clear: both;
+}
+
+.details {
+    width: 24%;
+}
+
+

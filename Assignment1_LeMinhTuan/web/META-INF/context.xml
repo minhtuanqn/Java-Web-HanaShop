@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Assignment1_LeMinhTuan">
+    <Resource
+        name="Lab1"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+        url="jdbc:sqlserver://localhost:1433;databaseName=Test_HanaShopDB"
+        username="sa" password="123"
+    />
+</Context>
